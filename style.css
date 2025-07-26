@@ -244,6 +244,34 @@ button {
 }
 
 
+/* Plants Lover sections */
+
+.plants-lover {
+  padding-top: 2rem;
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}
+
+.plants-img {
+  position: relative;
+  min-width: 50%;
+}
+
+.plants-lover-content {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.plants-lover-content > li {
+  display: flex;
+  align-items: start;
+  margin-left: 0.5rem;
+}
+
+
 
 
 @media screen and (width <= 576px) {
@@ -288,6 +316,17 @@ button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+  }
+
+  .plants-lover {
+    padding-top: 0;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .plants-lover-content {
+    padding: 0;
+    gap: 0.75rem;
   }
 
  
