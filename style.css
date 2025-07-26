@@ -80,6 +80,84 @@ button {
 }
 
 
+/* All Uses */
+
+.logo > img {
+  max-width: 10rem;
+}
+
+.font-semi-bold {
+  font-weight: var(--font-semi-bold);
+}
+
+.font-bold {
+  font-weight: var(--font-bold);
+}
+
+.color-dark-50 {
+  color: var(--color-dark-50);
+}
+
+.color-dark-400 {
+  color: var(--color-dark-400);
+}
+
+.color-dark-600 {
+  color: var(--color-dark-600);
+}
+
+.color-dark-800 {
+  color: var(--color-dark-800);
+}
+
+.color-dark-900 {
+  color: var(--color-dark-900);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.color-white {
+  color: var(--color-white);
+}
+
+.font-h1 {
+  font-weight: var(--font-bold);
+  font-size: var(--font-h1);
+}
+
+.font-h2 {
+  font-weight: var(--font-bold);
+  font-size: var(--font-h2);
+}
+
+.font-h3 {
+  font-weight: var(--font-bold);
+  font-size: var(--font-h3);
+}
+
+.font-base {
+  font-size: var(--font-base);
+}
+
+.font-sm {
+  font-size: var(--font-sm);
+}
+
+.font-noto-serif {
+  font-family: var(--font-noto-serif);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-full {
+  width: 100%;
+}
+
+
 .primary-nav {
   display: flex;
   align-items: center;
@@ -121,8 +199,6 @@ button {
 .banner-content > :not(:last-child) {
   margin-bottom: 1rem;
 }
-
-
 
 
 
