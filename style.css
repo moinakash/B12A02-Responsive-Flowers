@@ -202,7 +202,13 @@ button {
   border-color: inherit;
 }
 
-
+.badge {
+  position: absolute;
+  top: -100px;
+  right: -75px;
+  width: 200px;
+  animation: round-n-round 10s linear infinite;
+}
 
 /* Banner */
 .banner {
@@ -518,6 +524,8 @@ button {
     display: none;
   }
 
-
+ .badge {
+    display: none;
+  }
  
 }
